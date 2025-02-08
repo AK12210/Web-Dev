@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./icon.ico">
+    <style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto";
+    background-color: black;
+    
+}
+
+.container1{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+header{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 7%;
+    left: 57%;
+}
+
+.box1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(230, 224, 224);
+}
+
+
+#Instagramtext{
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+
+.box1 input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 5px;
+    margin-left: 20%;
+    padding: 13px 18px;
+    width: 62%;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    column-gap: 18px;
+    font-size: 14px;
+    color: white;
+}
+
+.separator :nth-child(1),
+.separator :nth-child(3){
+    width: 100%;
+    height: 1.5px;
+    background: #ccc;
+    display: block;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.link1{
+    width: 62%;
+    text-align: center;
+    background-color: #2C83F2;
+    margin-top: 10px;
+    margin-left: 20%;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+
+
+.link2{
+    width: 60%;
+    position: relative;
+    left: 23%;
+    text-align: center;
+    padding: 11px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+
+a .link2{
+    text-decoration: none;
+    color: #2C83F2;
+}
+
+.link3{
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+
+.forgot a{
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgot{
+    margin-bottom: 20px;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+
+.register p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+#reg{
+    color: #2C83F2;
+    text-decoration: none;
+}
+
+#link4{
+    margin-left: 5px;
+}
+
+.text #download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.gpm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.gpm img{
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.all{
+    margin-bottom: 800px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1500px;
+    background-color: black;
+}
+
+.nav{
+    font-size: 12px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow-x: auto;
+    display: flex;
+    color: #697681;
+    font-family: Arial;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    display: flex;
+    font-size: 12.6px;
+}
+
+
+.rus-from-meta{
+    color: #8e8e8e;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.links{
+    text-decoration: none;
+    color:#8e8e8e;
+    font-size: 12px;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+</style>
+    </head>
+    <body>
+        <div class="all">
+        <div class="container1">
+            <img src="./image.png" height="680px">
+        </div>
+            <header>
+                <div class="box1">
+                    <img id="Instagramtext" src="./instagramLogo.png" width="170px">
+
+                    <input type="email" name="email" id="email" placeholder="Телефон, имя пользователя или эл. адрес">
+                    <input type="password" name="password" id="password" placeholder="Пароль">
+
+                    <a href="#">
+                        <div class="link1">
+                            <strong>Войти</strong>
+                        </div>
+                    </a>
+
+                    <div class="separator">
+                        <span></span>
+                        <span>ИЛИ</span>
+                        <span></span>
+                    </div>
+
+                    <a href="#">
+                        <div class="link2">
+                            <img id="facebook" src="./facebookIcon.png" width="17px">
+                            <strong>Войти через Facebook</strong>
+                        </div>
+                    </a>
+                    <div class="forgot">
+                        <a href="#">
+                            <div class="link3">
+                                Забыли пароль?
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box1">
+                    <div class="register">
+                        <p>
+                        У вас еще нет аккаунта?<a id="reg" href="#"><b id="link4">Зарегистрироваться</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p id="download">Установите приложение.</p>
+                </div>
+
+                <div class="gpm">
+                    <a href="#"><img src="./googlePlayIcon.png" width="150px"></a>
+                    <a href="#"><img src="./microsoftIcon.png" width="150px" height="45"></a>
+                </div>
+            </header>
+    </div>
+
+        <footer class="lower-links">
+            <nav class="nav">
+                <div class="navtext">
+                    <a href="https://about.meta.com" class="links"> Meta</a>&ensp;
+                    <a href="index.html" class="links">Информация</a>&ensp;
+                    <a href="index.html" class="links">Блог</a>&ensp;
+                    <a href="index.html" class="links">Вакансии</a>&ensp;
+                    <a href="index.html" class="links">Помощь</a>&ensp;
+                    <a href="index.html" class="links">API</a>&ensp;
+                    <a href="index.html" class="links">Конфиденциальность</a>&ensp;
+                    <a href="index.html" class="links">Условия</a>&ensp;
+                    <a href="index.html" class="links">Популярные аккаунты</a>&ensp;
+                    <a href="index.html" class="links">Места</a>&ensp;
+                    <a href="index.html" class="links">Instagram Lite</a>&ensp;
+                    <a href="index.html" class="links">Загрузка контактов и лица, не являющиеся пользователями &ensp;</a>
+                    <a href="index.html" class="links">Meta Verified</a>
+                </div></br>
+            </nav>
+        </div>
+        <div class="rus-from-meta">
+            <p class="rus-from-meta">Русский &ensp; © 2025 Instagram from Meta</p>
+        </footer>
+    </body>
+</html>
