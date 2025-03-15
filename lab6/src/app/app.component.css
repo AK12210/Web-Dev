@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 15px 30px;
+    border-radius: 8px;
+  }
+
+  .nav-link {
+    color: white;
+    margin: 0 15px;
+  }
+
+  .nav-link:hover {
+    color: #eb8109;
+  }
